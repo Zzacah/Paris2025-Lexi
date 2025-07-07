@@ -55,7 +55,7 @@ export default function Home() {
         <p className="mb-6 max-w-2xl mx-auto" style={{ color: "var(--grey)" }}>The first natural deodorant designed for women who refuse to choose between their values and their confidence</p>
         <div className="w-full flex justify-center mb-10">
           <Image
-            src="/Flux_Dev_Create_a_warm_inviting_and_natural_hero_image_for_a_w_0.jpg"
+            src="/295911a73ec38bf4696bd8397400d7fef8ef338ced47864cce8ecfce0337e883.png"
             alt="Warm inviting natural accent"
             width={400}
             height={220}
