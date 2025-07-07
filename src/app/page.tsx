@@ -31,8 +31,8 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center text-center w-full px-4" style={{ color: 'var(--cream)' }}>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight drop-shadow-lg" style={{ color: 'var(--cream)' }}>Finally. A Natural Deodorant That Doesn't Quit on You</h1>
-          <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md" style={{ color: 'var(--grey)', textShadow: '0 2px 8px rgba(35,35,35,0.5)' }}>Sophisticated protection that lasts from morning meetings to evening workouts, without compromise.</p>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight drop-shadow-lg" style={{ color: 'var(--cream)' }}>Finally. A Natural Deodorant That Doesn&apos;t Quit on You</h1>
+          <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md" style={{ color: '#fff', textShadow: '0 2px 8px rgba(35,35,35,0.5)' }}>Sophisticated protection that lasts from morning meetings to evening workouts, without compromise.</p>
           <a href="#learn-more" className="inline-block font-semibold px-8 py-3 rounded-full shadow-lg transition" style={{ background: "var(--gold)", color: "var(--charcoal)" }}>Learn More</a>
         </div>
       </section>
@@ -40,9 +40,9 @@ export default function Home() {
       {/* Problem Statement */}
       <section id="learn-more" className="py-16 px-4 sm:px-8" style={{ background: "var(--cream)" }}>
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center" style={{ color: "var(--charcoal)" }}>We Know the Frustration</h2>
-        <p className="mb-6 max-w-2xl mx-auto" style={{ color: "var(--grey)" }}>You've invested in premium natural deodorants, expecting them to match your standards. Instead, you're left checking your reflection in bathroom mirrors, wondering if others notice what you already know: it stopped working hours ago.</p>
+        <p className="mb-6 max-w-2xl mx-auto" style={{ color: "var(--grey)" }}>You&apos;ve invested in premium natural deodorants, expecting them to match your standards. Instead, you&apos;re left checking your reflection in bathroom mirrors, wondering if others notice what you already know: it stopped working hours ago.</p>
         <ul className="grid gap-3 max-w-xl mx-auto text-left list-disc pl-6" style={{ color: "var(--grey)" }}>
-          <li>30 minutes into your day, you're already worried</li>
+          <li>30 minutes into your day, you&apos;re already worried</li>
           <li>Switching back to conventional before important meetings</li>
           <li>Avoiding your favorite workout classes</li>
           <li>Paying premium prices for disappointing performance</li>
@@ -146,7 +146,7 @@ export default function Home() {
               />
               <textarea
                 name="frustration"
-                placeholder="What's your biggest deodorant frustration?"
+                placeholder="What&apos;s your biggest deodorant frustration?"
                 value={form.frustration}
                 onChange={handleChange}
                 required
@@ -182,8 +182,8 @@ export default function Home() {
             <p style={{ color: "var(--grey)" }}>Yes! Lexi is dermatologist tested and formulated to be gentle enough for sensitive skin.</p>
           </div>
           <div>
-            <h4 className="font-semibold text-lg mb-2" style={{ color: "var(--charcoal)" }}>What's your return policy?</h4>
-            <p style={{ color: "var(--grey)" }}>We offer a 30-day satisfaction guarantee. If Lexi doesn't work for you, return it for a full refund—no questions asked.</p>
+            <h4 className="font-semibold text-lg mb-2" style={{ color: "var(--charcoal)" }}>What&apos;s your return policy?</h4>
+            <p style={{ color: "var(--grey)" }}>We offer a 30-day satisfaction guarantee. If Lexi doesn&apos;t work for you, return it for a full refund—no questions asked.</p>
           </div>
         </div>
       </section>
