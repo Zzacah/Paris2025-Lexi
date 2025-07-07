@@ -171,7 +171,7 @@ export default function Home() {
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto rounded-xl shadow p-8 flex flex-col gap-4" style={{ background: "#fff", border: "2px solid var(--gold)" }}>
           <h3 className="text-xl font-bold mb-2" style={{ color: "var(--charcoal)" }}>Get Early Access</h3>
           {submitted ? (
-            <div className="font-semibold text-center py-8" style={{ color: "var(--gold)" }}>Thank you! We'll be in touch soon.</div>
+            <div className="font-semibold text-center py-8" style={{ color: "var(--gold)" }}>Thank you! We&apos;ll be in touch soon.</div>
           ) : (
             <>
               <input
