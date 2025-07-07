@@ -158,11 +158,11 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-8" style={{ background: "var(--cream)" }}>
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center" style={{ color: "var(--charcoal)" }}>Early Access Reviews</h2>
         <blockquote className="max-w-2xl mx-auto italic text-lg border-l-4 pl-4 mb-8" style={{ color: "var(--grey)", borderColor: "var(--gold)" }}>
-          "Finally, a natural deodorant I can trust during my 6 AM Pilates class and my 6 PM investor dinner." <span className="not-italic font-semibold" style={{ color: "var(--charcoal)" }}>- Sarah, Tech Executive</span>
+          &quot;Finally, a natural deodorant I can trust during my 6 AM Pilates class and my 6 PM investor dinner.&quot; <span className="not-italic font-semibold" style={{ color: "var(--charcoal)" }}>- Sarah, Tech Executive</span>
         </blockquote>
         <div className="flex flex-col items-center gap-4">
           <span className="font-bold text-xl" style={{ color: "var(--gold)" }}>Be Among the First</span>
-          <span style={{ color: "var(--grey)" }}>Exclusive early access pricing · Limited founder's edition packaging</span>
+          <span style={{ color: "var(--grey)" }}>Exclusive early access pricing · Limited founder&apos;s edition packaging</span>
         </div>
       </section>
 
