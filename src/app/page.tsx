@@ -82,6 +82,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lexi's Advanced Natural Technology */}
+      <section className="py-16 px-4 sm:px-8 flex flex-col items-center" style={{ background: '#fff' }}>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center" style={{ color: 'var(--charcoal)' }}>Lexi&apos;s Advanced Natural Technology</h2>
+        <ul className="grid gap-4 max-w-2xl mx-auto text-left text-lg" style={{ color: 'var(--charcoal)' }}>
+          <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Proprietary Mineral Complex</span> – Naturally-derived aluminum alternatives that actually work</li>
+          <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Triple-Action Enzyme System</span> – Breaks down odor at the molecular level</li>
+          <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Microencapsulated Probiotics</span> – Maintains healthy skin microbiome while fighting bad bacteria</li>
+          <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Time-Release Botanicals</span> – Sustained protection that strengthens throughout the day</li>
+          <li><span className="font-bold" style={{ color: 'var(--gold)' }}>pH-Balanced Formula</span> – Works with your body&apos;s natural chemistry, not against it</li>
+        </ul>
+        <blockquote className="italic text-center mt-8 max-w-2xl mx-auto" style={{ color: 'var(--grey)' }}>
+          &quot;We didn&apos;t just remove the bad ingredients—we upgraded every single component.&quot;
+        </blockquote>
+      </section>
+
+      {/* Clinical Proof (Scientific validation) */}
+      <section className="py-16 px-4 sm:px-8 flex flex-col items-center" style={{ background: 'var(--cream)' }}>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center" style={{ color: 'var(--charcoal)' }}>Tested. Proven. Trusted.</h2>
+        <div className="grid gap-8 sm:grid-cols-2 max-w-4xl mx-auto">
+          <div>
+            <h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--charcoal)' }}>Independent Laboratory Results</h3>
+            <ul className="list-disc pl-6" style={{ color: 'var(--grey)' }}>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>12-Hour Odor Protection</span> – Clinically tested against leading natural and conventional brands</li>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>99.9% Antimicrobial Efficacy</span> – Proven to eliminate odor-causing bacteria</li>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Zero Skin Irritation</span> – Dermatologist-tested on sensitive skin, including those with baking soda sensitivities</li>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Sweat-Activated Performance</span> – Actually gets MORE effective as your body temperature rises</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--charcoal)' }}>Real-World Testing</h3>
+            <ul className="list-disc pl-6" style={{ color: 'var(--grey)' }}>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>30-Day Athletic Challenge</span> – Tested by 50 fitness instructors during peak training</li>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Corporate Stress Test</span> – 12-hour protection verified in high-pressure work environments</li>
+              <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Hormonal Cycle Study</span> – Consistent performance throughout monthly hormonal fluctuations</li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-8 max-w-2xl mx-auto">
+          <h3 className="font-semibold text-lg mb-2 text-center" style={{ color: 'var(--charcoal)' }}>Third-Party Certifications</h3>
+          <ul className="flex flex-wrap justify-center gap-6 text-lg" style={{ color: 'var(--grey)' }}>
+            <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Leaping Bunny Certified</span> (Cruelty-Free)</li>
+            <li><span className="font-bold" style={{ color: 'var(--gold)' }}>EWG Verified</span> (Safe Ingredients)</li>
+            <li><span className="font-bold" style={{ color: 'var(--gold)' }}>Clinical Research Organization Validated</span></li>
+          </ul>
+        </div>
+        <blockquote className="italic text-center mt-8 max-w-2xl mx-auto" style={{ color: 'var(--grey)' }}>
+          &quot;The first natural deodorant to pass the same efficacy standards as conventional antiperspirants.&quot;
+        </blockquote>
+      </section>
+
       {/* Validation Data */}
       <section className="py-16 px-4 sm:px-8" style={{ background: "var(--cream)" }}>
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center" style={{ color: "var(--charcoal)" }}>Proven Performance</h2>
