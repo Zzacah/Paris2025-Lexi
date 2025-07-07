@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
   const [form, setForm] = useState({ name: "", email: "", frustration: "" });
@@ -16,11 +16,25 @@ export default function Home() {
     setSubmitted(true);
   };
 
+  // Parallax ref (only for hero)
+  const heroRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      if (heroRef.current) {
+        heroRef.current.style.transform = `translateY(${scrollY * 0.5}px)`;
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen font-sans" style={{ background: "var(--background)", color: "var(--foreground)" }}>
       {/* Hero Section with Parallax */}
       <section className="relative w-full h-screen flex items-center justify-center overflow-hidden" style={{ minHeight: '100vh' }}>
-        <div className="absolute inset-0 w-full h-full z-0" style={{ willChange: 'transform', background: 'linear-gradient(to bottom, rgba(36,36,36,0.2) 0%, rgba(36,36,36,0.7) 100%)' }}>
+        <div ref={heroRef} className="absolute inset-0 w-full h-full z-0" style={{ willChange: 'transform', background: 'linear-gradient(to bottom, rgba(36,36,36,0.2) 0%, rgba(36,36,36,0.7) 100%)' }}>
           <Image
             src="/lexi-landing-hero.png"
             alt="Lexi Natural Deodorant Hero"
